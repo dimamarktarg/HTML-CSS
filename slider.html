@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slider</title>
+    <link rel="stylesheet" href="slider.css" />
+    <script defer src="slider.js"></script>
+  </head>
+  <body>
+    <h1>Slider</h1>
+    <section class="section">
+      <h2 class="modal__header">Фото природы</h2>
+      <div class="slider">
+        <div class="slide">
+          <img src="img/image-1.jpg" alt="Фото природы-1" class="img" />
+        </div>
+        <div class="slide">
+          <img src="img/image-2.jpg" alt="Фото природы-2" class="img" />
+        </div>
+        <div class="slide">
+          <img src="img/image-3.jpg" alt="Фото природы-3" class="img" />
+        </div>
+        <div class="slide">
+          <img src="img/image-4.jpg" alt="Фото природы-4" class="img" />
+        </div>
+        <div class="slide">
+          <img src="img/image-1.jpg" alt="Фото природы-5" class="img" />
+        </div>
+        <div class="slide">
+          <img src="img/image-2.jpg" alt="Фото природы-6" class="img" />
+        </div>
+        <div class="slide">
+          <img src="img/image-3.jpg" alt="Фото природы-7" class="img" />
+        </div>
+        <div class="slide">
+          <img src="img/image-4.jpg" alt="Фото природы-8" class="img" />
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+    <div class="modal-window hidden">
+      <button class="btn--close-modal-window">&times;</button>
+    </div>
+    <div class="overlay hidden"></div>
+  </body>
+</html>
