@@ -1,2 +1,3 @@
-# HTML-CSS
-Основы веб разработки. HTML и CSS
+# HTML-CSS-JS
+Основы веб разработки. HTML, CSS, JS
+Landing page and Slider.
